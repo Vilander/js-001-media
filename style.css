@@ -1,13 +1,14 @@
 body {
   font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  max-width: 1920px;
   min-height: 400px;
   background-image: url('background-mat.webp');
   background-color: #000000;
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   margin: 0 auto;
   padding: 0;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,13 +62,11 @@ body {
   margin:0 auto;
 }
 
-
 .form-container h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #020202;
 }
-
 
 .form-container input[type="number"] {
   width: 100%;
@@ -79,7 +78,6 @@ body {
   border-radius: 8px;
   font-size: 16px;
 }
-
 
 .form-container button {
   width: 100%;
@@ -106,16 +104,14 @@ body {
   transition: background-color 0.3s ease;
 }
 
-
 #btnResetar:hover {
   background-color: #b2caf8;
 }
 
-
 .form-container button:hover {
   background-color: #b2caf8;
 }
-
+/* calculadora de temperatura*/
 .calculadora {
   margin: 0 auto;
   padding: 15px;;

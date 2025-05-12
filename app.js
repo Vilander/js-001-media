@@ -46,9 +46,9 @@ const form = document.getElementById('formNotas');
       let n2 = parseFloat(form.nota2.value);
       let n3 = parseFloat(form.nota3.value);
       let n4 = parseFloat(form.nota4.value);
-
+      let n5 = parseFloat(form.nota5.value);
       
-      let media = ((n1 + n2 + n3 + n4) / 4).toFixed(2);
+      let media = ((n1 + n2 + n3 + n4 + n5) / 5).toFixed(2);
 
       
       let mensagem;
