@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Celsius & Fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+        <h1 class="page-title">
+            Conversor Celsius & Fahrenheit</h1>
+        <p class="page-subtitle">
+            Vamos converter as temperaturas
+        </p>
+    <div class="calculadoras">
+    <div class="form-container">
+    <h2>Digite aqui o valor que deseja converter</h2>
+    <p>
+          <label for="inputCelsius">Celsius:</label>
+          <input id="inputCelsius" type="number" placeholder="Celsius" oninput="celsiusToFahrenheit(this.value)">
+        </p>
+        <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+        <hr>
+
+        <!-- Fahrenheit para Celsius -->
+        <p>
+          <label for="inputFahrenheit">Fahrenheit:</label>
+          <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="fahrenheitToCelsius(this.value)">
+        </p>
+        <p>Celsius: <span id="outputCelsius"></span></p>
+ 
+    
+    </div>
+
+    </div>
+    <div class="calculadora">
+    <a href="index.html" class="btn-link">Calculadora de médias</a>
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

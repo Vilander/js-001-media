@@ -3,17 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de média</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
+   <div class="container">
         <h1 class="page-title">
             Calculadora de média</h1>
         <p class="page-subtitle">
             Descubra qual a sua média de nota de todas as provas!
         </p>
+    <div class="calculadoras">
+    <div class="form-container">
+    <h2>Digite aqui suas notas</h2>
+    <form id="formNotas">
+      <input type="number" name="nota1" placeholder="Nota 1" step="0.1" required />
+      <input type="number" name="nota2" placeholder="Nota 2" step="0.1" required />
+      <input type="number" name="nota3" placeholder="Nota 3" step="0.1" required />
+      <input type="number" name="nota4" placeholder="Nota 4" step="0.1" required />
+      <input type="number" name="nota5" placeholder="Nota 5" step="0.1" required />
+      <button type="submit">Enviar</button>
+      <button type="button" id="btnResetar">Reenviar</button>
+    </form>
+    <div id="resultado"></div>
+    
+    </div>
 
+    </div>
+    <div class="calculadora">
+    <a href="calculator.html" class="btn-link">Calculadora Celsius/Fahrenheit</a>
+    </div>
     </div>
 
     <script src="app.js"></script>
